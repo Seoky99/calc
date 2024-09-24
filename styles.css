@@ -39,7 +39,7 @@ p {
     gap: 2%;
 }
 
-.num, .op {
+.num, .op, .equals {
     flex: 1; 
     padding: 30px;
     font-size: 30px; 
