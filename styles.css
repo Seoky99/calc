@@ -1,9 +1,21 @@
 body {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.calc-container {
     display: flex;
     flex-direction: column; 
-    align-items: center;
-    min-height: 100vh;
-    justify-content: center; 
+    gap: 5px;
+    background-color: black;
+    border: 8px solid black;
+}
+
+button:hover {
+    cursor: pointer; 
 }
 
 h1 {
@@ -11,6 +23,9 @@ h1 {
     margin: 0;
     padding: 20px; 
     background-color: lightgrey;
+    align-self: flex-end; 
+    text-align: end; 
+    color: white;
 }
 
 p {
@@ -20,8 +35,8 @@ p {
 
 .row {
     display: flex;
-    justify-content: center;
     width: 400px;
+    gap: 2%;
 }
 
 .num, .op {

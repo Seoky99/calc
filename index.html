@@ -6,43 +6,45 @@
     <title>Calculator</title>
 
     <link rel="stylesheet" href="styles.css"/>
-    <script src="logic.js"></script>
+    <script src="logic.js" defer></script>
 </head>
 <body>
 
-    <div class="display row">
-        <h1> 0 </h1>
-    </div>
+    <div class="calc-container">
+        <div class="display row">
+            <h1 id ="text"> 0 </h1>
+        </div>
 
-    <div class="first row">
-        <div class="clear op"> <p> AC </p> </div>
-        <div class="div op"> <p> / </p> </div>
-    </div>
+        <div class="first row">
+            <button class="clear op"> <p> AC </p> </button>
+            <button class="divide op"> <p> / </p> </button>
+        </div>
 
-    <div class="second row">
-        <div class="num"><p>7 </p></div>
-        <div class="num"><p>8</p></div>
-        <div class="num"><p>9</p></div>
-        <div class="mult op"><p> * </p></div>
-    </div>
+        <div class="second row">
+            <button class="num" id="7"> 7 </button>
+            <button class="num" id="8"> 8 </button>
+            <button class="num" id="9"> 9 </button>
+            <button class="mult op"> * </button>
+        </div>
 
-    <div class="third row">
-        <div class="num">4</div>
-        <div class="num">5</div>
-        <div class="num">6</div>
-        <div class="sub op"> - </div>
-    </div>
+        <div class="third row">
+            <button class="num" id="4">4</button>
+            <button class="num" id="5">5</button>
+            <button class="num" id="6">6</button>
+            <button class="sub op"> - </button>
+        </div>
 
-    <div class="fourth row">
-        <div class="num">1</div>
-        <div class="num">2</div>
-        <div class="num">3</div>
-        <div class="sub op"> + </div>
-    </div>
+        <div class="fourth row">
+            <button class="num" id="1">1</button>
+            <button class="num" id="2">2</button>
+            <button class="num" id="3">3</button>
+            <button class="sub op"> + </button>
+        </div>
 
-    <div class="fifth row">
-        <div class="num zero">0</div>
-        <div class="equals op">=</div>
+        <div class="fifth row">
+            <button class="num" id="0">0</button>
+            <button class="equals op">=</button>
+        </div>
     </div>
     
 </body>
